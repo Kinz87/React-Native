@@ -6,7 +6,7 @@ import { baseUrl } from '../shared/baseUrl';
 
 const mapStateToProps = state => {
     return {
-        campsite: state.campsites,
+        campsites: state.campsites,
     };
 };
 
@@ -14,7 +14,7 @@ class Directory extends Component {
 
     static navigationOptions = {
         title: 'Directory'
-    }
+    };
 
 
     render() {
