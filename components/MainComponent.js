@@ -212,6 +212,7 @@ class Main extends Component {
         this.props.fetchPartners();
     }
     
+
     render() {
         return (
             <View style={{
